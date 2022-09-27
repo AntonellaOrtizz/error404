@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Electrolize&family=Press+Start+2P&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(236, 235, 235);
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 2.5em;
+}
+
+nav {
+  margin: 50px 50px 50px 50px;
+  background-color: white;
+  font-family: "Press Start 2P", cursive;
+}
+nav ul li {
+  padding: 0px 15px 0px 15px;
+}
+
+.icon {
+  margin-top: 10px;
+  height: 2em;
+  width: 2em;
+  transition: all 1s;
+}
+
+p {
+  margin: 30px 30px 30px 30px;
+  padding: 30px 30px 30px 30px;
+  text-align: center;
+}
+
+.remeYaccs {
+  margin: 50px 50px 50px 50px;
+  padding: 30px 50px 30px 50px;
+}
+
+.cambio {
+  margin: 50px 50px 50px 50px;
+  padding: 30px 50px 30px 50px;
+}
+
+.formulario {
+  margin: 50px 50px 50px 50px;
+  padding: 30px 50px 30px 50px;
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  width: 600px;
+}
+
+.mapa {
+  margin: 50px 50px 50px 50px;
+  padding: 30px 50px 30px 50px;
+}
+
+.img-logo {
+  height: 4em;
+  width: 8em;
+}
+
+h1 {
+  margin: 50px 50px 50px 50px;
+  padding: 50px 50px 50px 50px;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Electrolize", sans-serif;
+}
+
+footer {
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 500px) {
+  .remeYaccs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (min-width: 1024px) {
+  .contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .remeYaccs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+}/*# sourceMappingURL=style.css.map */
