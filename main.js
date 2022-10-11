@@ -31,3 +31,32 @@ let pago = prompt("por favor ingresa el metodo de pago que quieras utilizar. Efe
 }
 
 pagos();
+
+
+// funcion constructora para objetos
+
+class Prenda {
+    constructor(nombre, tipo, stock) {
+        this.nombre = nombre;
+        this.tipo = tipo;
+        this.stock = stock;
+    }
+}
+
+//nuevos objetos
+
+const notFound = new Prenda ("Not Found", "Remera", false);
+const www = new Prenda ("WWW", "Remera", true);
+const shutdown = new Prenda ("shutdown", "Remera", true);
+const error404 = new Prenda ("error404", "Remera", false);
+const click = new Prenda ("Click", "top", false);
+const logo = new Prenda ("Logo", "Top", true);
+const bLogo = new Prenda ("Logo", "Beanie", true);
+const bLogoAmarillo = new Prenda ("Logo amarillo", "beanie", false);
+const dead = new Prenda ("Dead", "beanie", false);
+
+console.log(notFound);
+
+
+
+
